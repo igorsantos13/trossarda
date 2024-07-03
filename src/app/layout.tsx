@@ -3,6 +3,9 @@ import { Kanit } from "next/font/google";
 
 import "./globals.css";
 import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
+
 
 const kanit = Kanit({
   subsets: ["latin"],
@@ -24,8 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${kanit.variable} font-sans bg-primary text-white leading-loose`}>
-        <Header />
-        {children}
+        
+          <Header />
+        <StairTransition />
+        <PageTransition>
+          {children}
+        </PageTransition>
+
+      
       </body>
     </html>
   );
