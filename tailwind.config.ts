@@ -1,3 +1,4 @@
+import { url } from "inspector"
 import type { Config } from "tailwindcss"
 
 const config = {
@@ -13,6 +14,9 @@ const config = {
     container: {
       center: true,
       padding: "15px",
+    },
+    backgroundImage: {
+      pattern: 'url(/assets/pattern.png)'
     },
     screens: {
       sm: "640px",
