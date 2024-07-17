@@ -10,15 +10,15 @@ export default function Header() {
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <Link href={'/'}>
-          <h1 className='text-4xl text-transparent font-semibold bg-gradient-to-r from-yellow-300 to-yellow-700 bg-clip-text inline-block'>trossarda</h1>
+          <h1 className='text-4xl text-accent font-semibold bg-gradient-to-r from-yellow-300 to-yellow-700 bg-clip-text inline-block'>trossarda</h1>
         </Link>
 
         {/* desktop nav & contact me button */}
         <div className='hidden xl:flex gap-3'>
           <Nav />
-          <Link href={'/contact'}>
+          {/* <Link href={'/contact'}>
             <Button>Fale Comigo!</Button>
-          </Link>
+          </Link> */}
         </div>
 
         {/* mobile nav */}

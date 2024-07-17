@@ -45,10 +45,8 @@ export default function Work() {
       <div className='flex-1 flex items-center justify-center pb-4'>
         <div className='flex flex-col items-center justify-center shadow-xl max-w-1/2 rounded-lg p-2 bg-gradient-to-br from-zinc-800 to-slate-900 space-y-4 w-full'>
           <h2 className='text-2xl text-zinc-300'>Trabalhos anteriores</h2>
-          <p className='text-zinc-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda repellendus voluptates minima sequi odit impedit necessitatibus, modi aut libero porro ex, atque eum ullam tenetur. Sint ex tempora ipsam.</p>
+          <p className='text-zinc-400'>acabou a criatividade, entao finge que tem conteúdo aqui, fé🙏✌️✌️</p>
           <div className='w-full h-full  gap-2 grid grid-cols-2 grid-rows-2 place-items-center'>
-            <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
-            <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
             <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
             <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
 

@@ -7,19 +7,19 @@ export default function Stats() {
 
   const stats = [
     {
-      num: 1,
+      num: 5600,
       text: 'twitch followers'
     },
     {
-      num: 10,
+      num: 4800,
       text: 'instagram followers'
     },
     {
-      num: 100,
+      num: 3800,
       text: 'x/twitter followers'
     },
     {
-      num: 1000,
+      num: 1300,
       text: 'youtube subscribers'
     },
   ]
@@ -33,11 +33,12 @@ export default function Stats() {
              key={index}>
               <CountUp 
                 end={item.num}
-                duration={5}
+                duration={3}
                 delay={2}
                 className='text-4xl xl:text-6xl font-extrabold'
 
               />
+              +
               <p className={`${item.text.length < 15 ? 'max-w-[100px]': 'max-w-[150px]'} leading-snug text-white/80`}>{item.text}</p>
             </div>
           ))}

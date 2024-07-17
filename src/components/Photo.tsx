@@ -6,7 +6,11 @@ import Image from 'next/image'
 
 import trossarda from '../../public/assets/trossarda.png'
 
-export default function Photo() {
+interface PhotoProp {
+  fill?: boolean
+}
+
+export default function Photo({fill}: PhotoProp) {
   return (
     <div className='h-full w-full relative flex items-center justify-center'>
       {/* image */}
@@ -24,15 +28,28 @@ export default function Photo() {
         }}}
         className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten flex justify-center absolute'
         >
-          <Image 
-          src={trossarda} 
-          alt='trossarda' 
-          priority 
-          quality={100} 
-          
-          className='object-contain'
-          fill
-          />
+          {fill ? (
+            <Image 
+            src={trossarda} 
+            alt='trossarda' 
+            priority 
+            quality={100} 
+            
+            className='object-contain'
+            fill
+            />
+
+          ) : (
+              <Image 
+            src={trossarda} 
+            alt='trossarda' 
+            priority 
+            quality={100} 
+            
+            className='object-contain'
+            
+            />
+          )}
 
 
         </motion.div>

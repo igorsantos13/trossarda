@@ -7,24 +7,24 @@ import Link from 'next/link'
 export default function Social() {
   const numbers = [
     {
-      value: '110,5k',
+      value: '80,5k ▶️',
+      title: 'Youtube subscribers',
+      description: '260+ vídeos publicados'
+    },
+    {
+      value: '110,5k 📈',
       title: 'Youtube total views',
-      description: 'Across 120 videos we managed to reach 110k total views'
+      description: 'Vods e cortes das lives'
     },
     {
-      value: '110,5k',
-      title: 'Youtube total views',
-      description: 'Across 120 videos we managed to reach 110k total views'
+      value: '30k 📱',
+      title: 'Curtidas no TikTok',
+      description: '4k followers'
     },
     {
-      value: '4,5k',
-      title: 'Média de views nos Stories',
-      description: 'Arsenal, Arsenal!!'
-    },
-    {
-      value: '10,5k',
-      title: 'Instagram média de curtidas',
-      description: 'Across 120 posts we have on average 10k likes per post'
+      value: '2,2k 📸',
+      title: 'Média view nos stories',
+      description: 'chutei o numeroKKKKK'
     },
   ]
 
