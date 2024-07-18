@@ -5,6 +5,7 @@ import React from 'react'
 import Banner from '../../../public/assets/ytbanner.jpg'
 import r10 from '../../../public/assets/r10.jpg'
 import { Tilt } from 'react-tilt'
+import { CircleCheck } from 'lucide-react'
 
 export default function Work() {
   const defaultOptions = {
@@ -22,12 +23,12 @@ export default function Work() {
   
   return (
     <div className='overflow-hidden w-full h-full flex flex-col gap-4 items-center justify-center px-6 '>
-      <h2 className='text-3xl text-center font-semibold text-zinc-200'>Com quem já trabalhei?</h2>
+      <h2 className='text-3xl text-center font-semibold text-zinc-200'>Parceiros:</h2>
       <div className='mt-5 flex w-full h-full flex-col gap-4 md:flex-row justify-evenly'>
         <Tilt options={defaultOptions} >
           <div className='shadow-xl max-w-1/2 rounded-lg p-2 bg-gradient-to-br from-zinc-800 to-slate-900 space-y-4 w-full'>
             <Image className='rounded-md w-[1500px] h-[200px]' objectFit='fit' src={Banner} alt='Twitch Partner'/>
-            <h2 className='text-2xl text-zinc-300'>TWITCH PARTNER</h2>
+            <h2 className='text-2xl text-zinc-300 flex flex-row items-center gap-2'>TWITCH PARTNER <CircleCheck /></h2>
             <p className='text-zinc-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda repellendus voluptates minima sequi odit impedit necessitatibus, modi aut libero porro ex, atque eum ullam tenetur. Sint ex tempora ipsam.</p>
           </div>
 
@@ -35,7 +36,8 @@ export default function Work() {
         <Tilt options={defaultOptions} >
           <div className='shadow-xl max-w-1/2 rounded-lg p-2 bg-gradient-to-br from-zinc-800 to-slate-900 space-y-4 w-full'>
             <Image className='rounded-md' src={r10} alt='R10 Team'/>
-            <h2 className='text-2xl text-zinc-300'>R10 TEAM MEMBER</h2>
+            <h2 className='text-2xl text-zinc-300 flex flex-row items-center gap-2'>R10 TEAM MEMBER <CircleCheck /></h2>
+            
             <p className='text-zinc-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda repellendus voluptates minima sequi odit impedit necessitatibus, modi aut libero porro ex, atque eum ullam tenetur. Sint ex tempora ipsam.</p>
           </div>
 

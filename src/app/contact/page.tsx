@@ -1,17 +1,16 @@
 
 import React from 'react'
 import Socials from '@/components/Socials'
-import ContactPhoto from '@/components/ContactPhoto'
 import ContactContainer from '@/components/ContactContainer'
 import Photo from '@/components/Photo'
 
 export default function Contact() {
   return (
-    <div className='max-w-[800px] shadow-sm shadow-slate-950 space-y-8 py-4 px-2 bg-gradient-to-tr from-bg-primary  to-[#434343] container h-full flex flex-col justify-center rounded-md'>
+    <div className='max-w-[800px] shadow-sm shadow-accent space-y-8 py-4 px-2 bg-gradient-to-tr from-bg-primary  to-[#434343] container h-full flex flex-col justify-center rounded-md'>
       {/* todo: adicionar div de animação */}
       <ContactContainer>
         <div className='flex flex-col text-center '>
-          <h2 className='text-4xl leading-1 text-zinc-200 pb-2'>Entre em contato aqui:</h2>
+          <h2 className='text-4xl leading-1 text-zinc-300 pb-2 underline underline-offset-8 mb-4'>Entre em contato aqui:</h2>
           {/* <span className='text-xl'>Entre em contato aqui:</span> */}
         </div>
 
