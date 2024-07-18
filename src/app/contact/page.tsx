@@ -6,7 +6,7 @@ import Photo from '@/components/Photo'
 
 export default function Contact() {
   return (
-    <div className='max-w-[800px] shadow-sm shadow-accent space-y-8 py-4 px-2 bg-gradient-to-tr from-bg-primary  to-[#434343] container h-full flex flex-col justify-center rounded-md'>
+    <div className='max-w-[400px] md:max-w-[800px] shadow-sm shadow-accent space-y-8 py-4 px-2 bg-gradient-to-tr from-bg-primary  to-[#434343] container h-full flex flex-col justify-center rounded-md'>
       {/* todo: adicionar div de animação */}
       <ContactContainer>
         <div className='flex flex-col text-center '>
@@ -16,9 +16,9 @@ export default function Contact() {
 
         <div className='flex flex-row justify-evenly  items-center ' >
 
-          <Socials socialName={true} containerStyles=' grid grid-cols-2 gap-3' iconStyles='w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500'/>
+          <Socials socialName={true} containerStyles=' grid grid-cols-3 md:grid-cols-2 gap-3' iconStyles='w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500'/>
           {/* <ContactPhoto /> */}
-          <div className='size-[400px]'>
+          <div className='hidden md:size-[400px] md:block'>
             <Photo/>
 
           </div>

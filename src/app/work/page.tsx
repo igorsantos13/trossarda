@@ -47,10 +47,20 @@ export default function Work() {
       <div className='flex-1 flex items-center justify-center pb-4'>
         <div className='flex flex-col items-center justify-center shadow-xl max-w-1/2 rounded-lg p-2 bg-gradient-to-br from-zinc-800 to-slate-900 space-y-4 w-full'>
           <h2 className='text-2xl text-zinc-300'>Trabalhos anteriores</h2>
-          <p className='text-zinc-400'>acabou a criatividade, entao finge que tem conteúdo aqui, fé🙏✌️✌️</p>
-          <div className='w-full h-full  gap-2 grid grid-cols-2 grid-rows-2 place-items-center'>
-            <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
-            <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
+          <p className='text-zinc-400'>acabou a criatividade, entao taquei uns cipe aqui, fé🙏✌️✌️</p>
+          <div className='w-full h-full gap-4 grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 place-items-center'>
+            {/* <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/>
+            <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/> */}
+
+            {/* <iframe src="https://clips.twitch.tv/embed?clip=DarlingSwissAnteaterBIRB-zwqyTo6-hemDL9L4&parent=www.example.com" frameBorder="0" allowFullScreen={true} height="378" width="620"></iframe> */}
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=WittyFantasticWaterKappaPride-z6pohD43pKrQAysT&parent=localhost" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=EnchantingPrettyCodCorgiDerp-24gI040RULDxcdOe&parent=localhost" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=ChillyFineKoalaPicoMause-NbLDmDdOe01aKYDt&parent=localhost" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=AnimatedComfortableAdminNinjaGrumpy-MThX0kpkKKv6lSwR&parent=localhost" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=LivelyUnusualToadPRChase-ZARTXRBxXZrFIEnc&parent=localhost" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=DifficultSweetFiddleheadsTebowing-sBL1S2ZTTXpLeWDc&parent=localhost" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+
+
 
           </div>
           

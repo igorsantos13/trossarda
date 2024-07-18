@@ -8,15 +8,15 @@ export const menu = [
     path: '/social'
   },
   {
-    name: 'public',
+    name: 'publico',
     path: '/stats'
   },
   {
-    name: 'work',
+    name: 'parceiros',
     path: '/work'
   },
   {
-    name: 'contact',
+    name: 'contato',
     path: '/contact'
   },
 
