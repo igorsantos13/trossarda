@@ -53,12 +53,12 @@ export default function Work() {
             <Image width={500} className='rounded-md' src={r10} alt='R10 Team'/> */}
 
             {/* <iframe src="https://clips.twitch.tv/embed?clip=DarlingSwissAnteaterBIRB-zwqyTo6-hemDL9L4&parent=www.example.com" frameBorder="0" allowFullScreen={true} height="378" width="620"></iframe> */}
-            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=WittyFantasticWaterKappaPride-z6pohD43pKrQAysT&parent=https://trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
-            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=EnchantingPrettyCodCorgiDerp-24gI040RULDxcdOe&parent=https://trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
-            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=ChillyFineKoalaPicoMause-NbLDmDdOe01aKYDt&parent=https://trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
-            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=AnimatedComfortableAdminNinjaGrumpy-MThX0kpkKKv6lSwR&parent=https://trossarda.vercel.app/t" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
-            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=LivelyUnusualToadPRChase-ZARTXRBxXZrFIEnc&parent=https://trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
-            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=DifficultSweetFiddleheadsTebowing-sBL1S2ZTTXpLeWDc&parent=https://trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=WittyFantasticWaterKappaPride-z6pohD43pKrQAysT&parent=trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=EnchantingPrettyCodCorgiDerp-24gI040RULDxcdOe&parent=trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=ChillyFineKoalaPicoMause-NbLDmDdOe01aKYDt&parent=trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=AnimatedComfortableAdminNinjaGrumpy-MThX0kpkKKv6lSwR&parent=trossarda.vercel.app/t" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=LivelyUnusualToadPRChase-ZARTXRBxXZrFIEnc&parent=trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
+            <iframe className='rounded-md' src="https://clips.twitch.tv/embed?clip=DifficultSweetFiddleheadsTebowing-sBL1S2ZTTXpLeWDc&parent=trossarda.vercel.app/" frameBorder="0" width="400" height="378" allowFullScreen></iframe>
 
 
 

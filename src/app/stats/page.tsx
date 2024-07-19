@@ -18,6 +18,7 @@ import {
 import { TrendingUp } from 'lucide-react'
 import RegionGraph from '@/components/RegionGraph'
 import GenderGraph from '@/components/GenderGraph'
+import { AgeGraph } from '@/components/AgeGraph'
 
 
 export default function Stats() {
@@ -65,17 +66,21 @@ export default function Stats() {
   } satisfies ChartConfig
 
   return (
-    <section className='w-full h-full flex-col items-center justify-center '>
+    <section className='w-full h-full flex-col items-center justify-center text-center'>
       <h2 className='text-white text-center text-4xl md:text-5xl mb-5'>Quem me acompanha?</h2>
       
       {/* graphs container */}
-      <div className='gap-4 bg-zinc-900 shadow-md shadow-zinc-800 p-2 md:p-4 rounded-md container mt-10 flex flex-col md:flex-row items-center justify-center'>
+      <div className='gap-6 bg-zinc-900 shadow-md shadow-zinc-800 p-2 md:p-4 rounded-md container mt-10 flex flex-col md:flex-row items-center justify-center'>
         <RegionGraph chartData={chartData} chartConfig={chartConfig}/>
 
         {/* todo: gender grpah */}
-        <GenderGraph pieChartConfig={pieChartConfig} pieChartData={pieChartData}/>
-
+        {/* <GenderGraph pieChartConfig={pieChartConfig} pieChartData={pieChartData}/> */}
+        <AgeGraph />
       </div>
+        <div>
+          <span className='text-slate-200/50 font-semibold'>*valores meramente ilustrativos*</span>
+
+        </div>
       
     </section>
   )
