@@ -70,7 +70,7 @@ export default function Stats() {
       <h2 className='text-white text-center text-4xl md:text-5xl mb-5'>Quem me acompanha?</h2>
       
       {/* graphs container */}
-      <div className='gap-4 bg-zinc-900 shadow-md shadow-zinc-800 p-2 md:p-4 rounded-md container mt-10 flex flex-col md:flex-row items-center justify-center'>
+      <div className='gap-6 bg-zinc-900 shadow-md shadow-zinc-800 p-2 md:p-4 rounded-md container mt-10 flex flex-col md:flex-row items-center justify-center'>
         <RegionGraph chartData={chartData} chartConfig={chartConfig}/>
 
         {/* todo: gender grpah */}

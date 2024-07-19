@@ -11,8 +11,8 @@ interface RegionGraphProps {
 
 function RegionGraph({chartData, chartConfig} : RegionGraphProps) {
   return (
-    <div className='w-1/2 space-y-5 h-full '>
-          <Card className='flex size-[500px] text-slate-200  border-none  flex-col items-center justify-center bg-transparent'>
+    <div className=' '>
+          <Card className='flex w-[400px] md:w-[600px] md:h-[400px] text-slate-200  border-none  flex-col items-center justify-center bg-primary'>
             <CardHeader className='items-center pb-0'>
               <CardTitle>Region Distribuition</CardTitle>
               <CardDescription>Distribuição de público no Brasil</CardDescription>

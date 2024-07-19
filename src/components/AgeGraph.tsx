@@ -37,13 +37,13 @@ const chartConfig = {
 
 export function AgeGraph() {
   return (
-    <Card className="flex size-[500px] text-slate-200  border-none  flex-col items-center justify-center bg-transparent">
+    <Card className="flex w-[400px] md:w-[600px] md:h-[400px] text-slate-200 border-none flex-col items-center justify-center bg-primary">
       <CardHeader>
         <CardTitle>Idade</CardTitle>
         <CardDescription>Dados em %</CardDescription>
       </CardHeader>
-      <CardContent>
-        <ChartContainer className="" config={chartConfig}>
+      <CardContent className="flex-1 flex items-center justify-center pb-0">
+        <ChartContainer config={chartConfig}>
           <BarChart
             accessibilityLayer
             data={chartData}
@@ -91,14 +91,14 @@ export function AgeGraph() {
           </BarChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col items-start gap-2 text-sm">
+      {/* <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 font-medium leading-none">
           Trending up by 5.2% this age <TrendingUp className="h-4 w-4" />
         </div>
         <div className="leading-none text-muted-foreground">
           Showing total visitors for the last 6 ages
         </div>
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   )
 }
