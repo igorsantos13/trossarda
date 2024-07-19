@@ -18,6 +18,7 @@ import {
 import { TrendingUp } from 'lucide-react'
 import RegionGraph from '@/components/RegionGraph'
 import GenderGraph from '@/components/GenderGraph'
+import { AgeGraph } from '@/components/AgeGraph'
 
 
 export default function Stats() {
@@ -73,7 +74,8 @@ export default function Stats() {
         <RegionGraph chartData={chartData} chartConfig={chartConfig}/>
 
         {/* todo: gender grpah */}
-        <GenderGraph pieChartConfig={pieChartConfig} pieChartData={pieChartData}/>
+        {/* <GenderGraph pieChartConfig={pieChartConfig} pieChartData={pieChartData}/> */}
+        {/* <AgeGraph /> */}
 
       </div>
       
