@@ -18,7 +18,7 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart"
 const chartData = [
-  { age: "15-18", percentage: 50},
+  { age: "15-17", percentage: 50},
   { age: "18-25", percentage: 25},
   { age: "25-31", percentage: 15},
   { age: "31+", percentage: 10},
@@ -43,7 +43,7 @@ export function AgeGraph() {
         <CardDescription>Dados em %</CardDescription>
       </CardHeader>
       <CardContent className="flex-1 flex items-center justify-center pb-0">
-        <ChartContainer config={chartConfig}>
+        <ChartContainer className="min-h-[200px] bg-slate-50 rounded-md p-4" config={chartConfig}>
           <BarChart
             accessibilityLayer
             data={chartData}

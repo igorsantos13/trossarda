@@ -14,13 +14,13 @@ function RegionGraph({chartData, chartConfig} : RegionGraphProps) {
     <div className=' '>
           <Card className='flex w-[400px] md:w-[600px] md:h-[400px] text-slate-200  border-none  flex-col items-center justify-center bg-primary'>
             <CardHeader className='items-center pb-0'>
-              <CardTitle>Region Distribuition</CardTitle>
-              <CardDescription>Distribuição de público no Brasil</CardDescription>
+              <CardTitle>Localização de público</CardTitle>
+              <CardDescription>Dados em %</CardDescription>
             </CardHeader>
             <CardContent className="flex-1 flex items-center justify-center pb-0">
               {/* region graph */}
               <div className='w-full'>
-                <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
+                <ChartContainer config={chartConfig} className="min-h-[200px] w-full bg-slate-50 rounded-md p-4">
                 <BarChart accessibilityLayer data={chartData}>
                   <CartesianGrid vertical={false} />
                   <XAxis
