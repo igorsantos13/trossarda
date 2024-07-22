@@ -39,7 +39,7 @@ export default function Socials({containerStyles, iconStyles, socialName} : Soci
   return (
     <div className={`${containerStyles}`}>
       {socials.map((item, index) => (
-        <div key={index} className='flex flex-row items-center gap-2'>
+        <div key={index} className='grid gird-col-6 grid-row-2 md:flex md:flex-row items-center gap-2'>
         <Link target='_blank'  href={item.path} className={`${iconStyles}`}>
           {item.icons} 
         </Link>

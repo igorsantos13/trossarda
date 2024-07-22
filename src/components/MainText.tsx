@@ -11,9 +11,9 @@ function MainText() {
       animate={{opacity: 1, transition: {
         delay: 2, duration: 0.4, ease: "easeIn"
       }}}
-     className="text-center xl:text-left order-2 xl:order-none">
+     className="text-center max-w-full xl:text-left order-2 xl:order-none">
     <span>Twitch Streamer / Content Creator</span>
-    <h1 className="h1 mb-6">
+    <h1 className="h1 mb-6 text-wrap">
       Olá <span 
       className="wave"
       >👋</span> eu sou a <br /> <span className="text-accent">Trossarda</span>
@@ -23,8 +23,8 @@ function MainText() {
     </p>
 
     {/* socials */}
-    <div className="mb-8 xl:mb-0 xl:mb flex flex-col xl:flex-row items-center gap-8">
-      <Socials containerStyles='flex gap-6' iconStyles='w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500'/>
+    <div className="mb-8 xl:mb-0 px-4 xl:mb flex flex-col xl:flex-row items-center gap-8">
+      <Socials containerStyles='flex gap-2 md:gap-6' iconStyles='w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500'/>
     </div>
 
   </motion.div>
