@@ -29,7 +29,7 @@ export default function Work() {
       <div className='mt-5 flex w-full h-full flex-col gap-4 md:flex-row justify-evenly'>
         <Tilt options={defaultOptions} >
           <div className='shadow-xl max-w-1/2 rounded-lg p-2 bg-gradient-to-br from-zinc-800 to-slate-900 space-y-4 w-full'>
-            <Image className='rounded-md w-[1500px] h-[200px]' objectFit='fit' src={Banner} alt='Twitch Partner'/>
+            <Image className='rounded-md w-[1500px] h-[200px]' src={Banner} alt='Twitch Partner'/>
             <h2 className='text-2xl text-zinc-300 flex flex-row items-center gap-2'>TWITCH PARTNER <CircleCheck /></h2>
             <p className='text-zinc-400'>Lives segunda, quarta e sexta, às 13h.</p>
           </div>

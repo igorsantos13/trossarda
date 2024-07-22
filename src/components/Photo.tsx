@@ -35,7 +35,7 @@ export default function Photo({fill}: PhotoProp) {
             priority 
             quality={100} 
             
-            className='object-contain'
+            className='object-contain h-auto w-auto'
             fill
             />
 
@@ -46,7 +46,7 @@ export default function Photo({fill}: PhotoProp) {
             priority 
             quality={100} 
             
-            className='object-contain'
+            className='object-contain '
             
             />
           )}

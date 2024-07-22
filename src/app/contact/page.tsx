@@ -6,7 +6,7 @@ import Photo from '@/components/Photo'
 
 export default function Contact() {
   return (
-    <section className='flex items-center justify-center h-[calc(100vh-107px)] md:h-full w-full border-2'>
+    <section className='flex items-center justify-center h-[calc(100vh-107px)] md:h-full w-full'>
       <div className='max-w-[400px] max-h-2/4 w-11/12 md:max-w-[800px] shadow-sm shadow-accent space-y-8 py-4 px-2 bg-gradient-to-tr from-bg-primary  to-[#434343] container h-full flex flex-col justify-center  rounded-md'>
         {/* todo: adicionar div de animação */}
         <ContactContainer>

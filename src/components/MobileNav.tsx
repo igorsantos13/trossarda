@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { CiMenuFries } from 'react-icons/ci'
@@ -14,10 +14,13 @@ export default function MobileNav() {
   ))
   return (
     <Sheet>
+
       <SheetTrigger className='flex justify-center items-center'>
         <CiMenuFries className='text-[32px] text-accent'/>
       </SheetTrigger>
-      <SheetContent className='flex flex-col'>
+      <SheetContent className='flex flex-col '>
+        <SheetTitle className='hidden'>Menu</SheetTitle>
+        <SheetDescription className='hidden'>Home, Social Media, Publico, Parcerios e Contato</SheetDescription>
           {/* logo */}
         <div className='mt-32 mb-40 text-center text-2xl'>
           <Link href={'/'}>
@@ -31,6 +34,8 @@ export default function MobileNav() {
           {links}
         </nav>
       </SheetContent>
+
+
     </Sheet>
   )
 }
