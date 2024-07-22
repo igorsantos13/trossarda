@@ -40,7 +40,7 @@ export default function Work() {
             <Image className='rounded-md' src={r10} alt='R10 Team'/>
             <h2 className='text-2xl text-zinc-300 flex flex-row items-center gap-2'>R10 TEAM MEMBER <CircleCheck /></h2>
             
-            <p className='text-zinc-400'>Streamer e influencer da R10 Team na Twitch de EA FC e variedades</p>
+            <p className='text-zinc-400'>Streamer e influencer da R10 Team na Twitch de EA FC e variedades.</p>
           </div>
 
         </Tilt>

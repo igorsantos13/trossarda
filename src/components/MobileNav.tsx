@@ -10,7 +10,7 @@ import { menu } from '@/lib/menu'
 export default function MobileNav() {
   const pathname = usePathname()
   const links = menu.map((link, index) => (
-    <Link key={index} className={`${link.path === pathname && 'text-accent border-b-2 border-accent'} flex flex-col w-1/4 capitalize font-medium hover:text-accent transition-all`} href={link.path}>{link.name}</Link>
+    <Link key={index} className={`${link.path === pathname && 'text-accent border-b-2 border-accent w-full'} flex flex-col w-1/4 capitalize font-medium hover:text-accent transition-all`} href={link.path}>{link.name}</Link>
   ))
   return (
     <Sheet>

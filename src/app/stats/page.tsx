@@ -67,17 +67,17 @@ export default function Stats() {
 
   return (
     <section className='w-full h-full flex-col items-center justify-center text-center'>
-      <h2 className='text-white text-center text-4xl md:text-5xl mb-5'>Quem me acompanha?</h2>
+      <h2 className='text-white text-center text-3xl md:text-5xl mb-5'>Quem me acompanha?</h2>
       
       {/* graphs container */}
-      <div className='gap-6 bg-zinc-900 shadow-md shadow-zinc-800 p-2 md:p-4 rounded-md container mt-10 flex flex-col md:flex-row items-center justify-center'>
+      <div className='overflow-hidden w-11/12 md:gap-6 max-h-screen md:max-w-full bg-zinc-900 shadow-md shadow-zinc-800 pb-4  md:p-4 rounded-md container md:mt-10 flex flex-col md:flex-row items-center justify-center'>
         <RegionGraph chartData={chartData} chartConfig={chartConfig}/>
 
         {/* todo: gender grpah */}
         {/* <GenderGraph pieChartConfig={pieChartConfig} pieChartData={pieChartData}/> */}
         <AgeGraph />
       </div>
-        <div>
+        <div className='hidden md:block'>
           <span className='text-slate-200/50 font-semibold'>*valores meramente ilustrativos*</span>
 
         </div>

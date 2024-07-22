@@ -13,7 +13,7 @@ export const menu = [
   },
   {
     name: 'parceiros',
-    path: '/work'
+    path: '/partners'
   },
   {
     name: 'contato',
