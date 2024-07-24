@@ -11,7 +11,7 @@ export default function Contact() {
         {/* todo: adicionar div de animação */}
         <ContactContainer>
           <div className='flex flex-col text-center '>
-            <h2 className='text-4xl leading-1 text-zinc-300 pb-2 underline underline-offset-8 mb-4'>Entre em contato aqui:</h2>
+            <h2 className='text-4xl leading-1 text-zinc-300 pb-4 underline underline-offset-8 mb-4 font-semibold'>Entre em contato aqui:</h2>
             {/* <span className='text-xl'>Entre em contato aqui:</span> */}
           </div>
 

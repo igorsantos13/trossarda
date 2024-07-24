@@ -7,9 +7,9 @@ import Link from 'next/link'
 export default function Social() {
   const numbers = [
     {
-      value: '80,5k ▶️',
-      title: 'Youtube subscribers',
-      description: '260+ vídeos publicados'
+      value: '200,5k+ ▶️',
+      title: 'Views no tiktok',
+      description: '25+ vídeos publicados'
     },
     {
       value: '110,5k 📈',
@@ -17,7 +17,7 @@ export default function Social() {
       description: 'Vods e cortes das lives'
     },
     {
-      value: '30k 📱',
+      value: '30k+ 📱',
       title: 'Curtidas no TikTok',
       description: '4k followers'
     },

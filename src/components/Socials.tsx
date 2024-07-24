@@ -2,7 +2,8 @@ import Link from 'next/link'
 import path from 'path'
 import React from 'react'
 
-import {FaTwitch, FaInstagram, FaYoutube, FaTwitter, FaWhatsapp, FaTiktok } from 'react-icons/fa'
+import {FaTwitch, FaInstagram, FaYoutube, FaWhatsapp, FaTiktok } from 'react-icons/fa'
+import { BsTwitterX } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
 const socials = [
@@ -13,13 +14,13 @@ const socials = [
     icons: <FaYoutube />, path: 'https://www.youtube.com/@trossarda', socialName: 'Youtube'
   },
   {
-    icons: <FaTwitter />, path: 'https://x.com/trossarda', socialName: 'Twiiter/X'
+    icons: <BsTwitterX />, path: 'https://x.com/trossarda', socialName: 'Twiiter/X'
   },
   {
     icons: <FaInstagram />, path: 'https://instagram.com/trossarda', socialName: 'Instagram'
   },
   {
-    icons: <FaTiktok />, path: 'https://tiktok.com/@trossarda', socialName: 'Instagram'
+    icons: <FaTiktok />, path: 'https://tiktok.com/@trossarda', socialName: 'Tiktok'
   },
   {
     icons: <IoMdMail />, path: '#', socialName: 'email'
@@ -44,7 +45,7 @@ export default function Socials({containerStyles, iconStyles, socialName} : Soci
           {item.icons} 
         </Link>
         {socialName && (<span>
-          <Link href={item.path}>{item.socialName}</Link>
+          <Link target='_blank' href={item.path}>{item.socialName}</Link>
         </span>)}
         </div>
       ))}

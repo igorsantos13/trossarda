@@ -7,11 +7,11 @@ export default function Stats() {
 
   const stats = [
     {
-      num: 5600,
+      num: 5900,
       text: 'twitch followers'
     },
     {
-      num: 4800,
+      num: 7500,
       text: 'instagram followers'
     },
     {
